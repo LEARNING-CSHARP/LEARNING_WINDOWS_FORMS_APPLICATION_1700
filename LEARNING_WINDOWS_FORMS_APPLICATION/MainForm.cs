@@ -13,56 +13,56 @@
 
 		private void button1_Click(object sender, System.EventArgs e)
 		{
-			// Solution (1)
-			Form1 frm = new Form1();
+			// Step (1)
+			Form1 form = new Form1();
 
-			frm.Show();
+			form.Show();
 
 			int intSomeNumber = 1;
-			// /Solution (1)
+			// /Step (1)
 
-			// Solution (2)
-			//Form1 frm = new Form1();
+			// Step (2)
+			//Form1 form = new Form1();
 
-			//frm.Show();
+			//form.Show();
 
 			//textBox1.Text = "Hello, World!";
-			// /Solution (2)
+			// /Step (2)
 
-			// Solution (3)
-			//Form1 frm = new Form1();
+			// Step (3)
+			//Form1 form = new Form1();
 
-			//frm.MyMainForm = this;
+			//form.MyMainForm = this;
 
-			//frm.Show();
-			// /Solution (3)
+			//form.Show();
+			// /Step (3)
 		}
 
 		private void button2_Click(object sender, System.EventArgs e)
 		{
-			// Solution (1)
-			Form1 frm = new Form1();
+			// Step (1)
+			Form1 form = new Form1();
 
-			frm.ShowDialog();
+			form.ShowDialog();
 
 			int intSomeNumber = 1;
-			// /Solution (1)
+			// /Step (1)
 
-			// Solution (2)
-			//Form1 frm = new Form1();
+			// Step (2)
+			//Form1 form = new Form1();
 
-			//frm.ShowDialog();
+			//form.ShowDialog();
 
 			//textBox1.Text = "Hello, World!";
-			// /Solution (2)
+			// /Step (2)
 
-			// Solution (3)
-			//Form1 frm = new Form1();
+			// Step (3)
+			//Form1 form = new Form1();
 
-			//frm.MyMainForm = this;
+			//form.MyMainForm = this;
 
-			//frm.ShowDialog();
-			// /Solution (3)
+			//form.ShowDialog();
+			// /Step (3)
 		}
 	}
 }
