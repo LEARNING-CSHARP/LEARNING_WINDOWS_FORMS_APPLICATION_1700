@@ -1,16 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace LEARNING_WINDOWS_FORMS_APPLICATION
+﻿namespace LEARNING_WINDOWS_FORMS_APPLICATION
 {
-	public partial class Form1 : Form
+	public partial class Form1 : System.Windows.Forms.Form
 	{
 		public Form1()
 		{
@@ -19,11 +9,11 @@ namespace LEARNING_WINDOWS_FORMS_APPLICATION
 
 		public MainForm MyMainForm { get; set; }
 
-		private void Form1_Load(object sender, EventArgs e)
+		private void Form1_Load(object sender, System.EventArgs e)
 		{
 		}
 
-		private void button1_Click(object sender, EventArgs e)
+		private void button1_Click(object sender, System.EventArgs e)
 		{
 			MyMainForm.textBox1.Text = "Mr. Dariush Tasdighi";
 		}
